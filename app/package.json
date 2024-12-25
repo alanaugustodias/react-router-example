@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@gca-web-app/components": "workspace:*",
     "@gca-web-app/home": "workspace:*",
     "@gca-web-app/listing": "workspace:*",
     "@gca-web-app/styles": "workspace:*",

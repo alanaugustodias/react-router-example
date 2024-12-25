@@ -3,7 +3,7 @@ export default function Button({
   ...props
 }: React.PropsWithChildren) {
   return (
-    <button className="text-3xl font-bold underline p-10 border-8 bg-red" {...props}>
+    <button className="p-2 border-2 bg-red" {...props}>
       {children}
     </button>
   );
