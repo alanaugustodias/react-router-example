@@ -1,0 +1,8 @@
+{
+  "name": "@gca-web-app/styles",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "tailwindcss": "3.2.4"
+  }
+}

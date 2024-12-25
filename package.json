@@ -1,0 +1,13 @@
+{
+  "name": "gca-web-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nx run-many --parallel=3 -t build",
+    "dev": "pnpm --filter @gca-web-app/app dev",
+    "lint": "nx run-many --parallel=3 -t lint"
+  },
+  "devDependencies": {
+    "nx": "^20.3.0"
+  }
+}

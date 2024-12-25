@@ -1,0 +1,16 @@
+{
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*"],
+    "lintConfig": [
+      "{workspaceRoot}/eslint.config.base.js",
+      "{projectRoot}/eslint.config.js",
+      "{projectRoot}/tsconfig.json"
+    ]
+  },
+  "defaultBase": "origin/master",
+  "affected": {
+    "defaultBase": "origin/master"
+  },
+  "neverConnectToCloud": true,
+  "$schema": "./node_modules/nx/schemas/nx-schema.json"
+}
